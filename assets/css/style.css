@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/rio.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+}
+
+#b1{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+#b2{
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#carouselExampleControls {
+    background-color: #222;
+    border: 12px ridge #222;
+    margin-top: 3.6em;
+    margin-bottom: 50px;
+}
+
+#cit{
+    text-align: center;
+    overflow: auto;
+    color:white;
+    background-color: #222;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 4px ridge #222;
+}
+.media{
+    text-align: left;
+    overflow: auto;
+    color:white;
+    padding: 3em;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 4px ridge #222;
+    background-color: #222;
+}
+
+.nome p{
+    margin: 0;
+    padding-top: 1em;
+}
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color: #dc3545;
+  }
+
+footer{
+    overflow: auto;
+    padding: 0.5em;
+    justify-content: center;
+    text-align: center; 
+    color:white;
+    border: 4px ridge #222;
+}
+
+@media screen and (max-width: 600px) {
+    .bio {
+        flex-direction: column;
+    }
+
+    #carouselExampleControls{
+        margin-top:3.4em; 
+    }
+
+}
+
+@media screen and (max-width: 379px) {
+    #carouselExampleControls{
+        margin-top:5.4em; 
+    }
+
+}
